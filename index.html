@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Login & Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Rahul Roy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Background & Login Form -->
+    <div class="container">
+        <div class="login-container">
+            <div class="left-section">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="right-section">
+                <h3>LOGIN</h3>
+                <form action="#">
+                     <div class="input-text">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-text">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                     </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                    <button type="submit" class="login-btn">Log In</button>
+                </form>
+                <p>Don’t have an account? <a href="#">Signup</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
